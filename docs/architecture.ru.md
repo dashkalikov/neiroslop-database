@@ -31,9 +31,9 @@ flowchart LR
 
 | Репозиторий | Содержимое |
 | --- | --- |
-| [virtual-casino-client](https://github.com/dashkalikov/virtual-casino-client) | React-приложение, графика, звук, клиентские проверки и конфигурация Vite |
-| [virtual-casino-server](https://github.com/dashkalikov/virtual-casino-server) | FastAPI-приложение, игровые правила, модели SQLAlchemy и серверные проверки |
-| [virtual-casino-database](https://github.com/dashkalikov/virtual-casino-database) | Описание структуры данных и вспомогательные средства для PostgreSQL |
+| [neiroslop-client](https://github.com/dashkalikov/neiroslop-client) | React-приложение, графика, звук, клиентские проверки и конфигурация Vite |
+| [neiroslop-server](https://github.com/dashkalikov/neiroslop-server) | FastAPI-приложение, игровые правила, модели SQLAlchemy и серверные проверки |
+| [neiroslop-database](https://github.com/dashkalikov/neiroslop-database) | Описание структуры данных и вспомогательные средства для PostgreSQL |
 
 Общий GitHub Project может объединять задачи и pull request из всех трёх репозиториев. Для общего владения и управления командами подходит GitHub Organization; при размещении в личном аккаунте доступ предоставляется отдельно к каждому репозиторию.
 
@@ -50,4 +50,3 @@ flowchart LR
 Реализованы гостевые кошельки, серверный расчёт игровых раундов, сохранение истории, ежедневный подарок и игровые бонусы. Проект остаётся учебным прототипом: регистрация пользователей, версионируемые миграции и производственная эксплуатация относятся к дальнейшему развитию.
 
 CI/CD планируется отдельным этапом после настройки репозиториев и процесса совместной работы.
-
